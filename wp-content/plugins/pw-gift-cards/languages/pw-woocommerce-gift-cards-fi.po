@@ -1,0 +1,2348 @@
+# Copyright (C) 2020 PW WooCommerce Gift Cards Pro
+# This file is distributed under the same license as the PW WooCommerce Gift Cards Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PW WooCommerce Gift Cards Pro\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pw-gift-cards\n"
+"POT-Creation-Date: 2022-04-01T16:43:53+00:00\n"
+"PO-Revision-Date: 2022-04-01 13:03-0500\n"
+"Last-Translator: Antti Koskinen\n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Loco-Version: 2.3.2; wp-5.3.2\n"
+
+#. Plugin Name of the plugin
+msgid "PW WooCommerce Gift Cards Pro"
+msgstr "PW WooCommerce Gift Cards Pro"
+
+#. Plugin URI of the plugin
+msgid "https://www.pimwick.com/gift-cards/"
+msgstr "https://www.pimwick.com/gift-cards/"
+
+#. Description of the plugin
+msgid "Sell gift cards in your WooCommerce store."
+msgstr "Myy lahjakortteja WooCommerce-verkkokaupassa."
+
+#. Author of the plugin
+msgid "Pimwick, LLC"
+msgstr "Pimwick, LLC"
+
+#. Author URI of the plugin
+msgid "https://www.pimwick.com"
+msgstr "https://www.pimwick.com"
+
+#: admin/pw-gift-cards-admin.php:16 admin/pw-gift-cards-admin.php:312
+#: admin/pw-gift-cards-admin.php:323 admin/pw-gift-cards-admin.php:335
+#: admin/pw-gift-cards-admin.php:336 admin/pw-gift-cards-admin.php:354
+#: admin/pw-gift-cards-admin.php:355 admin/pw-gift-cards-admin.php:575
+msgid "PW Gift Cards"
+msgstr "PW Gift Cards"
+
+#: admin/pw-gift-cards-admin.php:22
+msgid "Allow Scheduled Delivery"
+msgstr "Salli ajastettu toimitus"
+
+#: admin/pw-gift-cards-admin.php:23
+msgid ""
+"Provides a \"Delivery Date\" for the purchasing customer to specify that the "
+"gift card should be delivered on a certain date. Otherwise gift cards are "
+"delivered as soon as the order is marked Complete. Default: Checked."
+msgstr ""
+"Antaa maksajan valita lahjakortille toimituspäivän. Muussa tapauksessa "
+"lahjakortti lähetetään vastaanottajalle heti, kun tilauksen tila on Valmis. "
+"Oletus: käytössä."
+
+#: admin/pw-gift-cards-admin.php:29
+msgid "Calendar Format"
+msgstr "Kalenterin muoto"
+
+#: admin/pw-gift-cards-admin.php:30
+msgid ""
+"If Scheduled Delivery is allowed, this is the date format that will appear "
+"for the Delivery Date calendar. Default: YYYY-MM-DD"
+msgstr ""
+"Jos Ajastettu toimitus on sallittu, tämä päivämäärämuoto näkyy "
+"toimituspäiväkalenterissa. Oletusasetus: VVVVV-KK-PP"
+
+#: admin/pw-gift-cards-admin.php:36
+msgid "Calendar First Day of the Week"
+msgstr "Kalenteri Viikon ensimmäinen päivä"
+
+#: admin/pw-gift-cards-admin.php:37
+msgid ""
+"If Scheduled Delivery is allowed, this indicates the first day of the week "
+"for the Delivery Date calendar. 0 = Sunday, 1 = Monday. Default: 0 (Sunday)"
+msgstr ""
+"Jos ajastettu toimitus on sallittu, tämä ilmaisee toimituspäiväkalenterin "
+"viikon ensimmäisen päivän. 0 = sunnuntai, 1 = maanantai. Oletusarvo: 0 "
+"(sunnuntai)"
+
+#: admin/pw-gift-cards-admin.php:43
+msgid "Auto Complete Orders"
+msgstr "Viimeistele tilaukset automaattisesti"
+
+#: admin/pw-gift-cards-admin.php:44
+msgid ""
+"When an order only contains gift cards, automatically mark the order as "
+"Complete to send the gift cards immediately."
+msgstr ""
+"Kun tilaus sisältää vain lahjakortteja, aseta tilaus automaattisesti Valmis-"
+"tilaan, jotta lahjakortit lähetetään heti."
+
+#: admin/pw-gift-cards-admin.php:50
+msgid "Send When Order Received"
+msgstr "Lähetä kun tilaus on vastaanotettu"
+
+#: admin/pw-gift-cards-admin.php:51
+msgid ""
+"By default we wait until the order status is Complete before generating and "
+"emailing the gift card. Check this box to send the gift card immediately "
+"when the order is received. Scheduled gift cards will still be sent on the "
+"scheduled date. Default: Unchecked"
+msgstr ""
+"Oletuksena odotamme kunnes tilauksen tila on Valmistunut ennen kuin "
+"lahjakortti luodaan ja lähetetään. Valitse tämä, niin lahjakortti lähetetään "
+"heti kun tilaus on vastaanotettu. Ajastetut lahjakortit lähetetään kuitenkin "
+"valittuna ajankohtana. Oletus: ei käytössä"
+
+#: admin/pw-gift-cards-admin.php:57
+msgid "Disable Expiration Date"
+msgstr "Poista umpeutuminen käytöstä"
+
+#: admin/pw-gift-cards-admin.php:58
+msgid ""
+"If the law in your area prohibits an expiration date for gift cards, you can "
+"disable Expiration Dates system wide. This will hide all buttons, options, "
+"and mention of an expiration date. Default: Unchecked."
+msgstr ""
+"Jos paikallinen laki kieltää lahjakorttien umpeutumisen, voit poistaa "
+"umpeutumispäivämäärät kautta järjestelmän. Tämä piilottaa kaikki painikkeet, "
+"vaihtoehdot ja maininnat umpeutumisesta. Oletus: ei valittu."
+
+#: admin/pw-gift-cards-admin.php:64
+msgid "Buy Gift Cards with Gift Cards"
+msgstr "Osta lahjakortteja lahjakorteilla"
+
+#: admin/pw-gift-cards-admin.php:65
+msgid ""
+"Allow customers to purchase gift cards using another gift card. Disable this "
+"to prevent customers from extending the date on expiring gift cards. "
+"Default: Checked."
+msgstr ""
+"Salli asiakkaiden ostaa lahjakortteja toisilla lahjakorteilla. Tämän "
+"poistaminen käytöstä estää asiakkaita pidentämästä umpeutuvien lahjakorttien "
+"voimassaoloa. Oletus: sallittu."
+
+#: admin/pw-gift-cards-admin.php:71
+msgid "Check Balance on My Account"
+msgstr "Saldon tarkistussivulinkki"
+
+#: admin/pw-gift-cards-admin.php:72
+msgid ""
+"When enabled, a link to the Check Balance page will be added to the My "
+"Account page. Default: checked"
+msgstr ""
+"Jos valittu, Oma tili -sivulle lisätään linkki saldon tarkistussivulle. "
+"Oletus: valittu"
+
+#: admin/pw-gift-cards-admin.php:78
+msgid "Allow Reloading"
+msgstr "Salli saldon lisääminen"
+
+#: admin/pw-gift-cards-admin.php:79
+msgid ""
+"When enabled, customers can add funds to an existing gift card from the "
+"Check Balance page."
+msgstr ""
+"Jos valittu, asiakkaat voivat lisätä saldoa lahjakorteille saldon "
+"tarkistussivulta."
+
+#: admin/pw-gift-cards-admin.php:85
+msgid "Allow Manual Debit"
+msgstr "Salli manuaalinen veloitus"
+
+#: admin/pw-gift-cards-admin.php:86
+msgid ""
+"When enabled, customers or store employees can debit funds from an existing "
+"gift card from the Check Balance page. Useful for physical stores where "
+"customers will redeem the card for in store purchases."
+msgstr ""
+"Kun valittu, asiakas tai kaupan työntekijä voi vähentää saldoa olemassa "
+"olevalta lahjakortilta saldon tarkistussivulta. Tätä voi käyttää "
+"kivijalkaliikkeessä, kun asiakas lunastaa lahjakortin kaupassa tehtävien "
+"ostostensa yhteydessä."
+
+#: admin/pw-gift-cards-admin.php:92
+msgid "Show Activity on Check Balance Page"
+msgstr "Näytä aktiviteetti saldon tarkistussivulla"
+
+#: admin/pw-gift-cards-admin.php:93
+msgid ""
+"When enabled, detailed transaction history will be shown on the Check "
+"Balance page."
+msgstr ""
+"Kun tämä on valittu, yksityiskohtainen tapahtumahistoria näkyy saldon "
+"tarkistussivulla."
+
+#: admin/pw-gift-cards-admin.php:99
+msgid "Use the WooCommerce Transactional Email System"
+msgstr "Käytä WooCommercen sähköpostijärjestelmää"
+
+#: admin/pw-gift-cards-admin.php:100
+msgid ""
+"Enabled by default. If you are not receiving your gift card emails, try "
+"disabling this setting."
+msgstr ""
+"Käytössä oletuksena. Jos et saa lahjakorttien sähköposteja, kokeile poistaa "
+"tämä asetus käytöstä."
+
+#: admin/pw-gift-cards-admin.php:106
+msgid "Allow Background Images"
+msgstr "Salli taustakuvat"
+
+#: admin/pw-gift-cards-admin.php:107
+msgid ""
+"Disabled by default. Check this box to allow a background image to be set in "
+"the Email Designer. Outlook does not display background images."
+msgstr ""
+"Pois käytöstä oletuksena. Valitse tämä valintaruutu, jos haluat asettaa "
+"taustakuvan Email Designer -sovelluksessa. Outlook ei näytä taustakuvia."
+
+#: admin/pw-gift-cards-admin.php:113
+msgid "Apply Fix For Missing Fields"
+msgstr "Korjaa puuttuvat tietokentät"
+
+#: admin/pw-gift-cards-admin.php:114
+msgid ""
+"If you do not see the To / From / Message fields on your gift card product "
+"page, try checking this box and reloading. Some themes have out of date "
+"WooCommerce template files and need to be patched to work with the Gift Card "
+"product."
+msgstr ""
+"Jos et näe Vastaanottaja / Lähettäjä / Viesti-kenttiä lahjakorttisi "
+"tuotesivulla, kokeile valita tämä asetus ja ladata sivu uudelleen. Jotkin "
+"teemat käyttävät vanhentuneita WooCommerce-sivupohjia ja tarvitsevat "
+"päivityksen toimiakseen oikein lahjakorttituotteen kanssa."
+
+#: admin/pw-gift-cards-admin.php:120
+msgid "Format Prices"
+msgstr "Hinnan muotoilu"
+
+#: admin/pw-gift-cards-admin.php:121
+msgid ""
+"For fixed gift card amounts, format the price with the system currency "
+"symbol. This is enabled by default. If you are having trouble with currency "
+"switchers, disable this setting. Note: You must remove and re-add your fixed "
+"gift card amounts if you change this setting."
+msgstr ""
+"Kiinteille lahjakortin summille, lisää hintaan järjestelmän valuuttamerkki. "
+"Tämä on käytössä oletuksena. Jos sinulla on ongelmia valuuttamuuntimien "
+"kanssa, poista tämä asetus käytöstä. Huomio: Sinun täytyy poistaa ja lisätä "
+"uudelleen kiinteät lahjakorttisummat, jos muutat tätä asetusta."
+
+#: admin/pw-gift-cards-admin.php:127
+msgid "Pre-populate the \"From\" Field"
+msgstr "Esitäytä lähettäjä-kenttä"
+
+#: admin/pw-gift-cards-admin.php:128
+msgid ""
+"If the customer is logged in, populate the From field with the Display Name "
+"value for their account. Default: Checked."
+msgstr ""
+"Jos asiakas on kirjautunut sisään, esitäytä lähettäjä-kenttä tilin nimellä. "
+"Oletus: valittu."
+
+#: admin/pw-gift-cards-admin.php:134
+msgid "Allow Multiple Recipients"
+msgstr "Salli useat vastaanottajat"
+
+#: admin/pw-gift-cards-admin.php:135
+msgid ""
+"Similar to how Amazon works, allow multiple recipient email addresses when "
+"purchasing a gift card. Default: Checked."
+msgstr ""
+"Kuten Amazonissa, salli sähköpostilähetys usealle vastaanottajalle oston "
+"yhteydessä. Oletus: valittu."
+
+#: admin/pw-gift-cards-admin.php:141
+msgid "Carbon Copy"
+msgstr "Kopio"
+
+#: admin/pw-gift-cards-admin.php:142
+msgid ""
+"When a gift card is emailed, carbon copy these addresses. Separate multiple "
+"emails with a comma."
+msgstr ""
+"Kun lahjakorttisähköposti lähetetään, kopio lähetetään näihin osoitteisiin. "
+"Erota sähköpostiosoitteet pilkulla."
+
+#: admin/pw-gift-cards-admin.php:148
+msgid "Blind Carbon Copy"
+msgstr "Piilokopio"
+
+#: admin/pw-gift-cards-admin.php:149
+msgid ""
+"When a gift card is emailed, blind carbon copy these addresses. Separate "
+"multiple emails with a comma."
+msgstr ""
+"Kun lahjakorttisähköposti lähetetään, piilokopio lähetetään näihin "
+"osoitteisiin. Erota sähköpostiosoitteet pilkulla."
+
+#: admin/pw-gift-cards-admin.php:155
+msgid "Send to the Buyer"
+msgstr "Lähetä ostajalle"
+
+#: admin/pw-gift-cards-admin.php:156
+msgid ""
+"When a gift card is emailed, blind carbon copy the gift card to the "
+"purchasing customer."
+msgstr ""
+"Kun lahjakorttisähköposti lähetetään, maksajalle toimitetaan piilokopio "
+"lahjakortista."
+
+#: admin/pw-gift-cards-admin.php:162
+msgid "Redeem Location - Cart"
+msgstr "Lunasta-kentän sijainti - Ostoskori"
+
+#: admin/pw-gift-cards-admin.php:163
+msgid "Specifies where the \"Apply Gift Card\" box appears on the Cart page."
+msgstr ""
+"Määrittää missä \"Lunasta lahjakortti\" -kenttä näytetään ostoskorisivulla."
+
+#: admin/pw-gift-cards-admin.php:171
+msgid "Above the \"Proceed to Checkout\" button."
+msgstr "\"Siirry kassalle\" -painikkeen yläpuolella."
+
+#: admin/pw-gift-cards-admin.php:172 admin/pw-gift-cards-admin.php:187
+msgid "Below the \"Apply Coupon\" area."
+msgstr "\"Käytä kuponki\" -alueen alla."
+
+#: admin/pw-gift-cards-admin.php:173 admin/pw-gift-cards-admin.php:188
+msgid "Do not display gift card field."
+msgstr "Älä näytä lahjakorttikenttää."
+
+#: admin/pw-gift-cards-admin.php:177
+msgid "Redeem Location - Checkout"
+msgstr "Lunasta-kentän sijainti - Kassa"
+
+#: admin/pw-gift-cards-admin.php:178
+msgid ""
+"Specifies where the \"Apply Gift Card\" box appears on the Checkout page."
+msgstr ""
+"Määrittää missä \"Lunasta lahjakortti\" -kenttä näytetään kassasivulla."
+
+#: admin/pw-gift-cards-admin.php:186
+msgid "Below the \"Payment Methods\" area."
+msgstr "\"Maksutavat\" -alueen alla."
+
+#: admin/pw-gift-cards-admin.php:192
+msgid "Coupon Code Field Input"
+msgstr "Kuponkikoodin tekstikenttä"
+
+#: admin/pw-gift-cards-admin.php:193
+msgid ""
+"Allow gift card numbers to be entered into the Coupon Code field to be "
+"redeemed. Default: checked."
+msgstr ""
+"Salli lahjakorttien lunastus syöttämällä lahjakortin numero kuponkikenttään. "
+"Oletus: sallittu."
+
+#: admin/pw-gift-cards-admin.php:199
+msgid "Remove card after checkout"
+msgstr "Poista kortti ostamisen jälkeen"
+
+#: admin/pw-gift-cards-admin.php:200
+msgid ""
+"After an order is placed the gift card will remain in the session for use "
+"with future purchases. Check this box to automatically remove the card from "
+"the session instead. Default: Unchecked"
+msgstr ""
+"Tilauksen tekemisen jälkeen lahjakortti pysyy istunnossa tulevien ostojen "
+"yhteydessä. Valitse tämä, jos haluat poistaa kortin automaattisesti "
+"istunnosta. Oletus: Ei valittu"
+
+#: admin/pw-gift-cards-admin.php:206
+msgid "Use Font Awesome Icon"
+msgstr "Käytä Font Awesome-ikonia"
+
+#: admin/pw-gift-cards-admin.php:207
+msgid ""
+"On the customer facing \"Check Balance\" page, show a gift card icon from "
+"the %s library."
+msgstr ""
+"Näytä asiakkaan saldotarkistussivulla lahjakortti-kuvake %s-kirjastosta."
+
+#: admin/pw-gift-cards-admin.php:213
+msgid "Default Redeem URL"
+msgstr "Lunastus-URL:n oletusarvo"
+
+#: admin/pw-gift-cards-admin.php:214
+msgid ""
+"The link for the Redeem button on the gift card email. Include the https "
+"prefix, the Gift Card Number is automatically appended in the URL. Can be "
+"different per Design."
+msgstr ""
+"Lunastuspainikkeen linkki lahjakorttisähköpostissa. Lisää https-etuliite, "
+"lahjakortin numero lisätään automaattisesti url-osoitteen loppuun. Voidaan "
+"asettaa ulkoasukohtaisesti."
+
+#: admin/pw-gift-cards-admin.php:221
+msgid "Show Balances by Date"
+msgstr "Näytä saldot päivämäärän mukaan"
+
+#: admin/pw-gift-cards-admin.php:222
+msgid ""
+"On the Balances page in the admin area, optionally show a date picker to "
+"show the balances as of a certain date."
+msgstr ""
+"Hallintapaneelin saldosivulla, vaihtoehtoisesti näytä päivämäärävalinta "
+"näyttääksesi saldot tietyn päivämäärän mukaan."
+
+#: admin/pw-gift-cards-admin.php:284
+msgid "Configuration error detected by"
+msgstr "Asetusvirhe havaittu lisäosassa"
+
+#: admin/pw-gift-cards-admin.php:285
+msgid ""
+"Your PayPal payment gateway is incorrectly configured. You should not have "
+"both IPN and PDT enabled. The \"IPN Email Notifications\" setting is enabled "
+"and there is also a \"PayPal Identity Token\" (PDT) value set. PayPal is "
+"reaching back to your site twice to confirm the payment. This causes things "
+"to happen twice including email notifications, stock reduction, and gift "
+"card generation. Go to WooCommerce -> Settings -> Payments -> PayPal and "
+"either clear the value from the \"PayPal Identity Token\" field or disable "
+"the \"IPN Email Notifications\" setting."
+msgstr ""
+"PayPal-maksuportaalisi on väärin asetettu. Sinulla ei tule olla sekä IPN "
+"että PDT aktivoituna. \"IPN Email Notifications\" on aktivoitu, ja \"PayPal "
+"Identity Token\" (PDT:lle) on asetettu arvo. Paypal yrittää lähettää pyynnön "
+"sivustollesi kaksi kertaa vahvistaakseen maksun. Tämä johtaa siihen että "
+"kaikki tapahtuu kaksi kertaa, mukaan lukien sähköpostiviestit, tuotesaldon "
+"poisto ja lahjakortin luominen. Mene valikosta WooCommerce -> Payments -> "
+"PayPal ja joko poista arvo \"PayPal Identity Token\" -kohdasta tai disabloi "
+"\"IPN Email Notifications\" -asetus."
+
+#: admin/pw-gift-cards-admin.php:286
+msgid "Dismiss this notice"
+msgstr "Piilota tämä ilmoitus"
+
+#: admin/pw-gift-cards-admin.php:313 admin/pw-gift-cards-admin.php:324
+#: admin/pw-gift-cards-admin.php:345
+msgid "Pimwick Plugins"
+msgstr "Pimwick Plugins"
+
+#: admin/pw-gift-cards-admin.php:346
+msgid "Our Plugins"
+msgstr "Lisäosamme"
+
+#: admin/pw-gift-cards-admin.php:404
+msgid "Adjustment amount? Can be positive or negative."
+msgstr "Muokkauksen arvo? Voi olla positiivinen tai negatiivinen."
+
+#: admin/pw-gift-cards-admin.php:405 admin/ui/sections/activity-records.php:11
+#: pw-gift-cards.php:274
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:20
+msgid "Note"
+msgstr "Viesti"
+
+#: admin/pw-gift-cards-admin.php:406 admin/ui/sections/designer-panel.php:46
+#: admin/ui/sections/designer-panel.php:140
+msgid "Select Image"
+msgstr "Valitse kuva"
+
+#: admin/pw-gift-cards-admin.php:407
+msgid "Use selected image"
+msgstr "Käytä valittua kuvaa"
+
+#: admin/pw-gift-cards-admin.php:408
+msgid "Expiration Date (YYYY-MM-DD)"
+msgstr "Umpeutumispäivämäärä (VVVV-KK-PP)"
+
+#: admin/pw-gift-cards-admin.php:409 admin/ui/sections/search-results.php:27
+msgid "Recipient Email Address"
+msgstr "Vastaanottajan sähköpostiosoite"
+
+#: admin/pw-gift-cards-admin.php:410 admin/ui/sections/import-results.php:21
+#: pw-gift-cards.php:133
+#: templates/woocommerce/emails/customer-pw-gift-card.php:134
+msgid "From"
+msgstr "Keneltä"
+
+#: admin/pw-gift-cards-admin.php:411 admin/ui/sections/search-results.php:39
+msgid "Note (optional)"
+msgstr "Viesti (valinnainen)"
+
+#: admin/pw-gift-cards-admin.php:412
+msgid "Email has been sent."
+msgstr "Sähköposti on lähetetty."
+
+#: admin/pw-gift-cards-admin.php:413
+msgid "Are you sure you want to delete this design?"
+msgstr "Haluatko varmasti poistaa tämän ulkoasun?"
+
+#: admin/pw-gift-cards-admin.php:414
+msgid "Note: Be sure to save changes before sending a preview email."
+msgstr ""
+"Huomio: Muista tallentaa muutokset ennen esikatseluviestin lähettämistä."
+
+#: admin/pw-gift-cards-admin.php:415
+msgid "Recipient email address?"
+msgstr "Vastaanottajan sähköpostiosoite?"
+
+#: admin/pw-gift-cards-admin.php:416
+msgid "The gift card was permanently deleted from the database."
+msgstr "Lahjakortti poistettiin pysyvästi tietokannasta."
+
+#: admin/pw-gift-cards-admin.php:457
+msgid "Wait"
+msgstr "Odota"
+
+#: admin/pw-gift-cards-admin.php:458
+msgid "Add"
+msgstr "Lisää"
+
+#: admin/pw-gift-cards-admin.php:459
+msgid "Remove"
+msgstr "Poista"
+
+#: admin/pw-gift-cards-admin.php:460
+#: includes/class-wc-product-pw-gift-card.php:258
+msgid "Amount must be greater than zero."
+msgstr "Arvon on oltava suurempi kuin nolla."
+
+#: admin/pw-gift-cards-admin.php:461
+msgid "Amount must be greater than minimum amount."
+msgstr "Arvon on oltava suurempi kuin minimi."
+
+#: admin/pw-gift-cards-admin.php:462
+msgid "Amount must be less than maximum amount."
+msgstr "Arvon on oltava pienempi kuin maksimi."
+
+#: admin/pw-gift-cards-admin.php:463
+msgid "Error"
+msgstr "Virhe"
+
+#: admin/pw-gift-cards-admin.php:464 admin/ui/product-data-panel-cards.php:274
+msgid "Add a bonus amount"
+msgstr "Lisää bonusarvo"
+
+#: admin/pw-gift-cards-admin.php:465
+msgid "Gift card amount that triggers the bonus?"
+msgstr "Lahjakorttiarvo joka laukaisee bonuksen?"
+
+#: admin/pw-gift-cards-admin.php:466
+msgid "Bonus gift card amount?"
+msgstr "Bonuslahjakortin arvo?"
+
+#: admin/pw-gift-cards-admin.php:499 admin/pw-gift-cards-admin.php:1178
+#: pw-gift-cards.php:126 pw-gift-cards.php:127
+msgid "Gift Card"
+msgstr "Lahjakortti"
+
+#: admin/pw-gift-cards-admin.php:647 admin/pw-gift-cards-admin.php:706
+msgid "Could not locate product id %s"
+msgstr "Tuote-ID %s ei löytynyt"
+
+#: admin/pw-gift-cards-admin.php:671 admin/pw-gift-cards-admin.php:738
+msgid "Could not locate product using product_id "
+msgstr "Tuote-ID:tä ei löytynyt product_id:n kautta "
+
+#: admin/pw-gift-cards-admin.php:691
+msgid "Gift Card Amount and Bonus amount are both required."
+msgstr "Lahjakortin arvo ja bonuksen arvo ovat molemmat pakollisia."
+
+#: admin/pw-gift-cards-admin.php:704 admin/ui/product-data-panel-cards.php:287
+msgid "Buy a %s gift card, get a %s bonus card"
+msgstr "Osta %s lahjakortti, saat %s bonuslahjakortin"
+
+#: admin/pw-gift-cards-admin.php:936
+msgid "Created %s gift cards."
+msgstr "Luotiin %s lahjakorttia."
+
+#: admin/pw-gift-cards-admin.php:961 includes/pw-gift-cards-redeeming.php:639
+#: pw-gift-cards.php:1252
+msgid "Error: %s"
+msgstr "Virhe: %s"
+
+#: admin/pw-gift-cards-admin.php:968
+msgid "Imported"
+msgstr "Tuotu"
+
+#: admin/pw-gift-cards-admin.php:981
+msgid "Too many columns."
+msgstr "Liian monta saraketta."
+
+#: admin/pw-gift-cards-admin.php:995
+msgid "Invalid gift card number: %s"
+msgstr "Virheellinen lahjakorttinumero: %s"
+
+#: admin/pw-gift-cards-admin.php:1003
+msgid "Invalid balance amount: %s"
+msgstr "Virheellinen arvo: %s"
+
+#: admin/pw-gift-cards-admin.php:1014
+msgid "Invalid expiration date: %s"
+msgstr "Virheellinen umpeutumispäivämäärä: %s"
+
+#: admin/pw-gift-cards-admin.php:1028
+msgid "Gift card number already exists."
+msgstr "Lahjakorttinumero on jo olemassa."
+
+#: admin/pw-gift-cards-admin.php:1073 includes/class-pw-gift-card.php:129
+msgid "None"
+msgstr "Ei mitään"
+
+#: admin/pw-gift-cards-admin.php:1094
+msgid "Malformed request."
+msgstr "Vääränmuotoinen pyyntö."
+
+#: admin/pw-gift-cards-admin.php:1162
+msgid "Settings saved."
+msgstr "Asetukset tallennettu."
+
+#: admin/pw-gift-cards-admin.php:1260
+msgid "Unable to find suitable slug for check balance page."
+msgstr "Toimivaa lyhytosoitetta saldotarkistussivulle ei löydy."
+
+#: admin/pw-gift-cards-admin.php:1270 includes/pw-gift-cards-shortcodes.php:140
+msgid "Gift Card Balance"
+msgstr "Lahjakortin saldo"
+
+#: admin/pw-gift-cards-admin.php:1310 includes/pw-gift-cards-shortcodes.php:122
+msgid "Balance adjusted."
+msgstr "Saldo muokattu."
+
+#: admin/pw-gift-cards-admin.php:1312
+msgid "Note added."
+msgstr "Viesti lisätty."
+
+#: admin/pw-gift-cards-admin.php:1332
+#: includes/pw-gift-cards-rest-controller.php:299
+msgid "Unable to parse expiration date."
+msgstr "Umpeutumispäivämäärän jäsentely epäonnistui."
+
+#: admin/pw-gift-cards-admin.php:1337 admin/pw-gift-cards-admin.php:1362
+#: admin/pw-gift-cards-admin.php:1386 admin/pw-gift-cards-admin.php:1400
+msgid "Gift card not found."
+msgstr "Lahjakorttia ei löydy."
+
+#: admin/pw-gift-cards-admin.php:1355
+msgid "Gift Card Number and Email Address are both required."
+msgstr "Sekä lahjakortin numero että sähköpostiosoite ovat pakollisia."
+
+#: admin/pw-gift-cards-admin.php:1421 admin/pw-gift-cards-admin.php:1479
+#: admin/pw-gift-cards-admin.php:1535
+msgid "Error: Invalid Design ID %s."
+msgstr "Virhe: Virheellinen ulkoasu-ID %s."
+
+#: admin/pw-gift-cards-admin.php:1440
+msgid "Design %s"
+msgstr "Ulkoasu %s"
+
+#: admin/pw-gift-cards-admin.php:1477
+msgid "Design saved."
+msgstr "Ulkoasu tallennettu."
+
+#: admin/pw-gift-cards-admin.php:1525
+msgid "Preview email system"
+msgstr "Esikatselusähköpostin järjestelmä"
+
+#: admin/pw-gift-cards-admin.php:1526 admin/ui/sections/designer-panel.php:212
+msgid "Recipient Name"
+msgstr "Vastaanottajan nimi"
+
+#: admin/pw-gift-cards-admin.php:1527 admin/ui/sections/designer-panel.php:214
+msgid "Gift card message to the recipient from the sender."
+msgstr "Lahjakorttiviesti ostajalta vastaanottajalle."
+
+#: admin/pw-gift-cards-admin.php:1533
+msgid "Email sent."
+msgstr "Sähköpostiviesti lähetetty."
+
+#: admin/ui/activation.php:9
+msgid "Enter the license key that was sent to your email address."
+msgstr "Syötä lisenssiavain joka lähetettiin sähköpostiisi."
+
+#: admin/ui/activation.php:12
+msgid "License Key"
+msgstr "Lisenssiavain"
+
+#: admin/ui/activation.php:13
+msgid "Activate"
+msgstr "Aktivoi"
+
+#: admin/ui/activation.php:15 admin/ui/footer.php:12
+msgid "If you need assistance please contact us."
+msgstr "Jos tarvitset apua, ota meihin yhteyttä."
+
+#: admin/ui/activation.php:23
+msgid ""
+"You may continue using the plugin with all features enabled, however you "
+"will no longer receive new updates and features until you renew."
+msgstr ""
+"Voit jatkaa lisäosan käyttämistä kaikilla toiminnoilla, mutta et tule "
+"vastaanottamaan uusia päivityksiä tai toimintoja kunnes uudistat lisenssisi."
+
+#: admin/ui/activation.php:25
+msgid "Renew your license"
+msgstr "Uudista lisenssisi"
+
+#: admin/ui/activation.php:26
+msgid "Hide this notice"
+msgstr "Piilota tämä vaihtoehto"
+
+#: admin/ui/initial-setup.php:14
+msgid "Create a \"%s\" product to start selling Gift Cards."
+msgstr "Luo \"%s\" -tuote aloittaaksesi lahjakorttien myymisen."
+
+#: admin/ui/initial-setup.php:18
+msgid "Create the Gift Card product"
+msgstr "Luo lahjakortti-tuote"
+
+#: admin/ui/initial-setup.php:27 admin/ui/initial-setup.php:46
+msgid "Success!"
+msgstr "Onnistui!"
+
+#: admin/ui/initial-setup.php:28
+msgid ""
+"The Gift Card product has been created. Click on the Products menu in the "
+"left to edit it."
+msgstr ""
+"Lahjakortin tuote on luotu. Klikkaa vasemmanpuoleista Tuotteet-valikkoa "
+"muokataksesi sitä."
+
+#: admin/ui/initial-setup.php:33
+msgid "Let your customers check their gift card balances."
+msgstr "Anna asiakkaidesi tarkistaa lahjakorttiensa saldot."
+
+#: admin/ui/initial-setup.php:37
+msgid "Create the Check Gift Card Balance page."
+msgstr "Luo Lahjakortin saldotarkistussivu."
+
+#: admin/ui/initial-setup.php:40
+msgid "Create a page with the %s"
+msgstr "Luo sivu käyttämällä %s"
+
+#: admin/ui/initial-setup.php:47
+msgid ""
+"The check gift card balance page has been created. Click on the Pages menu "
+"in the left to edit it."
+msgstr ""
+"Lahjakortin saldotarkistussivu on luotu. Klikkaa vasemmanpuoleista Sivut-"
+"valikkoa muokataksesi sitä."
+
+#: admin/ui/order-gift-card-total.php:14
+msgid "PW Gift Card"
+msgstr "PW Gift Card"
+
+#: admin/ui/order-gift-card-total.php:19
+#: includes/pw-gift-cards-purchasing.php:590
+msgid " (inactive)"
+msgstr " (ei toiminnassa)"
+
+#: admin/ui/order-gift-card-total.php:25
+#: includes/pw-gift-cards-purchasing.php:588
+msgid "(deleted)"
+msgstr "(poistettu)"
+
+#: admin/ui/product-data-panel-cards.php:9
+msgid "No default"
+msgstr "Ei oletusta"
+
+#: admin/ui/product-data-panel-cards.php:11
+msgid "The purchasing customer"
+msgstr "Ostava asiakas"
+
+#: admin/ui/product-data-panel-cards.php:12
+msgid "The gift card recipient."
+msgstr "Lahjakortin vastaanottaja."
+
+#: admin/ui/product-data-panel-cards.php:98
+msgid "Gift card amounts"
+msgstr "Lahjakorttien arvot"
+
+#: admin/ui/product-data-panel-cards.php:102
+msgid ""
+"The available denominations that can be purchased. For example: %1$s25.00, "
+"%1$s50.00, %1$s100.00"
+msgstr ""
+"Saatavilla olevat arvot, joista asiakas voi valita. Esimerkiksi: %1$s25.00, "
+"%1$s50.00, %1$s100.00"
+
+#: admin/ui/product-data-panel-cards.php:131
+msgid "Allow custom amounts"
+msgstr "Salli vapaavalintainen arvo"
+
+#: admin/ui/product-data-panel-cards.php:133
+msgid "Allow the customer to specify the gift card amount when purchasing."
+msgstr "Anna asiakkaan valita vapaavalintainen summa lahjakortille."
+
+#: admin/ui/product-data-panel-cards.php:139
+msgid "Minimum amount"
+msgstr "Pienin arvo"
+
+#: admin/ui/product-data-panel-cards.php:145
+msgid ""
+"The minimum gift card amount that can be chosen by the customer. Required."
+msgstr "Pienin arvo, jonka asiakas voi valita. Pakollinen."
+
+#: admin/ui/product-data-panel-cards.php:151
+msgid "Maximum amount"
+msgstr "Suurin arvo"
+
+#: admin/ui/product-data-panel-cards.php:157
+msgid ""
+"The maximum gift card amount that can be chosen by the customer. Required."
+msgstr "Suurin arvo, jonka asiakas voi valita. Pakollinen."
+
+#: admin/ui/product-data-panel-cards.php:164
+msgid "Include recipient name"
+msgstr "Sisällytä vastaanottajan nimi"
+
+#: admin/ui/product-data-panel-cards.php:166
+msgid ""
+"Allow the customer to specify a friendly name for the gift card recipient "
+"when purchasing. (Dad, Mom, Uncle Joe, etc)"
+msgstr ""
+"Anna asiakkaan lisätä nimi lahjakortin vastaanottajalle lahjakortin "
+"ostamisen yhteydessä. (Isä, Äiti, Eeva-täti, tms.)"
+
+#: admin/ui/product-data-panel-cards.php:173
+msgid "Show email preview"
+msgstr "Näytä sähköpostin esikatselu"
+
+#: admin/ui/product-data-panel-cards.php:175
+msgid ""
+"Include a Preview button on the front end so the purchasing customer can see "
+"the gift card email. Default: Checked"
+msgstr ""
+"Sisällytä etupäähän esikatselupainike, jotta ostava asiakas voi nähdä "
+"lahjakortin sähköpostiviestin. Oletus: Checked"
+
+#: admin/ui/product-data-panel-cards.php:182
+msgid "Ignore coupons"
+msgstr "Älä huomioi kuponkeja"
+
+#: admin/ui/product-data-panel-cards.php:184
+msgid ""
+"Check this box and coupons will not discount the purchase price of a gift "
+"card, although they will still apply to other items in the cart. Default: "
+"Unchecked."
+msgstr ""
+"Valitse tämä asetus, jotta alennuskupongit eivät alenna lahjakorttituotteen "
+"hintaa, mutta vaikuttavat muihin ostoskorin tuotteisiin normaalisti: Oletus: "
+"ei valittu."
+
+#: admin/ui/product-data-panel-cards.php:190
+msgid "Default amount"
+msgstr "Oletusarvo"
+
+#: admin/ui/product-data-panel-cards.php:193
+msgid ""
+"The amount that is pre-selected when a customer first views this product. "
+"They can choose another amount."
+msgstr ""
+"Oletusarvo, joka näytetään kun asiakas tulee ensimmäisen kerran "
+"tuotesivulle. Asiakas voi kuitenkin aina muuttaa summaa."
+
+#: admin/ui/product-data-panel-cards.php:200
+msgid "Physical gift card?"
+msgstr "Fyysinen lahjakortti?"
+
+#: admin/ui/product-data-panel-cards.php:202
+msgid ""
+"When checked, the generated gift card number will be emailed to address "
+"specified below. A physical gift card should be created and mailed to the "
+"Shipping Address on the order. Leave unchecked for traditional eGift cards. "
+"Default: Unchecked."
+msgstr ""
+"Jos valittu, luotu lahjakorttinumero toimitetaan alla olevaan sähköpostiin. "
+"Fyysinen lahjakortti pitää luoda ja toimittaa tilauksen "
+"toimitusosoitteeseen. Jätä valitsematta perinteisiä sähköisiä lahjakortteja "
+"varten. Oletus: ei valittu."
+
+#: admin/ui/product-data-panel-cards.php:208
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:155
+msgid "Recipient email address"
+msgstr "Vastaanottajan sähköpostiosoite"
+
+#: admin/ui/product-data-panel-cards.php:211
+msgid ""
+"The email address that will receive the generated gift card number. This "
+"person will print the gift card and mail it to the shipping address. Leave "
+"blank if you do not want to generate a gift card number for this product "
+"(for example, if you have pre-printed gift cards)."
+msgstr ""
+"Sähköpostiosoite minne lahjakortin numero toimitetaan. Tämä henkilö tulostaa "
+"lahjakortin ja postittaa sen toimitusosoitteeseen. Jätä tyhjäksi, jos et "
+"halua tuottaa lahjakortin numeroa tälle tuotteelle (esimerkiksi jos sinulla "
+"on esipainettu lahjakortti)."
+
+#: admin/ui/product-data-panel-cards.php:218
+msgid "Expires in X days"
+msgstr "Vanhenee X päivän kuluttua"
+
+#: admin/ui/product-data-panel-cards.php:221
+msgid ""
+"(optional) The number of days after the purchase date when the gift card "
+"will expire. If blank, the gift card will not expire."
+msgstr ""
+"(valinnainen) päivien määrä ostopäivän jälkeen, kun lahjakortti vanhenee. "
+"Lahjakortti ei vanhene, jos tämä jätetään tyhjäksi."
+
+#: admin/ui/product-data-panel-cards.php:230
+msgid ""
+"In accordance with the %s, US-based gift cards should not expire for at "
+"least 5 years (1,825 days)."
+msgstr ""
+"%s mukaan, USA:ssa myytävät lahjakortit eivät tule vanheta ainakaan viiteen "
+"vuoteen (1 825 päivää)."
+
+#: admin/ui/product-data-panel-cards.php:239
+#: admin/ui/sections/import-results.php:29
+#: admin/ui/sections/search-results.php:45 pw-gift-cards.php:137
+msgid "Email Design"
+msgstr "Sähköpostimalli"
+
+#: admin/ui/product-data-panel-cards.php:259
+msgid "Launch the Gift Card Designer"
+msgstr "Avaa lahjakortin suunnittelutyökalu"
+
+#: admin/ui/product-data-panel-cards.php:268
+msgid "Enable bonus gift cards?"
+msgstr "Ota käyttöön bonuslahjakortit?"
+
+#: admin/ui/product-data-panel-cards.php:269
+msgid ""
+"Offering a bonus for purchasing gift cards is a great way to incentivise "
+"customers. For example: Buy a $25 gift card, get a $5 bonus card!"
+msgstr ""
+"Bonuslahjakorttien tarjoaminen lahjakortin ostajille on loistava tapa "
+"kannustaa asiakkaita ostamaan. Esimerkiksi: Osta 25 € lahjakortti, saat 5 € "
+"bonuslahjakortin kaupan päälle!"
+
+#: admin/ui/product-data-panel-cards.php:300
+msgid "Cumulative bonus"
+msgstr "Kumulatiivinen bonus"
+
+#: admin/ui/product-data-panel-cards.php:301
+msgid ""
+"When checked, customer can purchase multiple gift cards to trigger the "
+"bonus. Otherwise, exact amount must be purchased to trigger bonus."
+msgstr ""
+"Jos valittu, asiakas voi ostaa useita lahjakortteja saadakseen "
+"bonuslahjakortin. Muuten tarkka summa vaaditaan bonuslahjakortin saamiseksi."
+
+#: admin/ui/product-data-panel-cards.php:308
+msgid "Who will receive the bonus gift card?"
+msgstr "Kenelle bonuslahjakortti lähetetään?"
+
+#: admin/ui/section-buttons.php:11
+msgid "Balances"
+msgstr "Saldot"
+
+#: admin/ui/section-buttons.php:15
+msgid "Email Designer"
+msgstr "Sähköpostimallit"
+
+#: admin/ui/section-buttons.php:19
+msgid "Create Gift Cards"
+msgstr "Luo lahjakortit"
+
+#: admin/ui/section-buttons.php:23
+msgid "Import / Export"
+msgstr "Tuonti / Vienti"
+
+#: admin/ui/section-buttons.php:27
+msgid "Settings"
+msgstr "Asetukset"
+
+#: admin/ui/sections/activity-records.php:8
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:18
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: admin/ui/sections/activity-records.php:9
+msgid "Action"
+msgstr "Toiminto"
+
+#: admin/ui/sections/activity-records.php:10
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:19
+msgid "User"
+msgstr "Käyttäjä"
+
+#: admin/ui/sections/activity-records.php:12 pw-gift-cards.php:130
+#: templates/woocommerce/emails/customer-pw-gift-card.php:171
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:21
+msgid "Amount"
+msgstr "Arvo"
+
+#: admin/ui/sections/activity-records.php:13
+#: admin/ui/sections/import-results.php:61
+#: admin/ui/sections/search-results.php:15
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:22
+msgid "Balance"
+msgstr "Saldo"
+
+#: admin/ui/sections/activity-records.php:35
+#: templates/woocommerce/pw-gift-cards/balance-activity.php:43
+msgid "Guest"
+msgstr "Vieras"
+
+#: admin/ui/sections/balance-summary.php:42
+msgid "Active gift cards"
+msgstr "Aktiiviset lahjakortit"
+
+#: admin/ui/sections/balance-summary.php:46
+msgid "Outstanding balances"
+msgstr "Avoimet saldot"
+
+#: admin/ui/sections/balance-summary.php:51
+#: templates/woocommerce/cart/apply-gift-card.php:35
+msgid "Apply"
+msgstr "Hyväksy"
+
+#: admin/ui/sections/balance-summary.php:52
+msgid "Balances as of date"
+msgstr "Saldot päivämäärän mukaan"
+
+#: admin/ui/sections/balances.php:14
+msgid "Gift card number or recipient email (leave blank for all)"
+msgstr ""
+"Lahjakortin numero tai vastaanottajan sähköpostiosoite (jätä tyhjäksi "
+"näyttääksesi kaikki)"
+
+#: admin/ui/sections/balances.php:15
+msgid "Search"
+msgstr "Etsi"
+
+#: admin/ui/sections/create.php:13
+msgid "Number of cards"
+msgstr "Korttien määrä"
+
+#: admin/ui/sections/create.php:21
+msgid "Initial balance"
+msgstr "Alkusaldo"
+
+#: admin/ui/sections/create.php:29
+msgid "Expiration date (optional)"
+msgstr "Umpeutumispäivämäärä (valinnainen)"
+
+#: admin/ui/sections/create.php:37
+msgid "Recipient Email (optional) - Will be emailed the gift card immediately."
+msgstr ""
+"Vastaanottajan sähköpostiosoite (valinnainen) - Vastaanottaja saa "
+"lahjakortin heti."
+
+#: admin/ui/sections/create.php:46
+msgid "Email Design - Only used if Recipient Email has been specified."
+msgstr ""
+"Sähköpostin ulkoasu - Käytetään vain, jos vastaanottajan sähköposti on "
+"määritetty."
+
+#: admin/ui/sections/create.php:67
+msgid "From (optional) - Shown to the Recipient in the gift card email."
+msgstr "Lähettäjä (valinnainen) - näkyy lahjakortin vastaanottajalle."
+
+#: admin/ui/sections/create.php:75
+msgid "Note (optional) - Shown to the Recipient in the gift card email."
+msgstr "Viesti (valinnainen) - Näkyy lahjakortin vastaanottajalle."
+
+#: admin/ui/sections/create.php:83
+msgid "Gift Card Number (optional) - Existing gift card number to insert."
+msgstr ""
+"Lahjakortin numero (valinnainen) - Olemassa olevan lahjakortin numero, joka "
+"lisätään."
+
+#: admin/ui/sections/create.php:91
+msgid "Create"
+msgstr "Luo"
+
+#: admin/ui/sections/designer-main.php:15
+msgid "Select a design to edit or add a new design."
+msgstr "Valitse muokattava ulkoasu, tai luo uusi ulkoasu."
+
+#: admin/ui/sections/designer-main.php:27
+msgid "Create a new design"
+msgstr "Luo uusi ulkoasu"
+
+#: admin/ui/sections/designer-panel.php:13
+msgid "Design name (visible to customers)"
+msgstr "Ulkoasun nimi (näkyy asiakkaille)"
+
+#: admin/ui/sections/designer-panel.php:17
+msgid "Dropdown menu order"
+msgstr "Pudotusvalikon järjestys"
+
+#: admin/ui/sections/designer-panel.php:21
+msgid "Gift card color"
+msgstr "Lahjakortin väri"
+
+#: admin/ui/sections/designer-panel.php:24
+msgid "Gift card title"
+msgstr "Lahjakortin otsikko"
+
+#: admin/ui/sections/designer-panel.php:28
+msgid "Gift card title color"
+msgstr "Lahjakortin otsikkoväri"
+
+#: admin/ui/sections/designer-panel.php:29
+msgid "Redeem button color"
+msgstr "Lunastuspainikkeen taustaväri"
+
+#: admin/ui/sections/designer-panel.php:30
+msgid "Redeem button text color"
+msgstr "Lunastuspainikkeen tekstiväri"
+
+#: admin/ui/sections/designer-panel.php:33
+msgid "Redeem Button Text"
+msgstr "Lunastuspainikkeen teksti"
+
+#: admin/ui/sections/designer-panel.php:37
+msgid "Redeem Button Visibility"
+msgstr "Lunastuspainikkeen näkyvyys"
+
+#: admin/ui/sections/designer-panel.php:39
+#: admin/ui/sections/designer-panel.php:74
+msgid "Visible"
+msgstr "Näkyvissä"
+
+#: admin/ui/sections/designer-panel.php:40
+#: admin/ui/sections/designer-panel.php:75
+msgid "Hidden"
+msgstr "Piilotettu"
+
+#: admin/ui/sections/designer-panel.php:44
+msgid "Image"
+msgstr "Kuva"
+
+#: admin/ui/sections/designer-panel.php:49
+msgid "Image location"
+msgstr "Kuvan sijainti"
+
+#: admin/ui/sections/designer-panel.php:60
+#: admin/ui/sections/designer-panel.php:111
+msgid "Left"
+msgstr "Vasemmalla"
+
+#: admin/ui/sections/designer-panel.php:61
+#: admin/ui/sections/designer-panel.php:112
+msgid "Center"
+msgstr "Keskellä"
+
+#: admin/ui/sections/designer-panel.php:62
+#: admin/ui/sections/designer-panel.php:113
+msgid "Right"
+msgstr "Oikealla"
+
+#: admin/ui/sections/designer-panel.php:66
+msgid "Image dimensions"
+msgstr "Kuvakoko"
+
+#: admin/ui/sections/designer-panel.php:67
+msgid "Max width"
+msgstr "Max leveys"
+
+#: admin/ui/sections/designer-panel.php:69
+msgid "Max height"
+msgstr "Max korkeus"
+
+#: admin/ui/sections/designer-panel.php:72
+msgid "PDF Link Visibility"
+msgstr "PDF-linkin näkyvyys"
+
+#: admin/ui/sections/designer-panel.php:79
+msgid "PDF Link Text"
+msgstr "PDF-linkki Teksti"
+
+#: admin/ui/sections/designer-panel.php:83
+msgid "PDF Link Color"
+msgstr "PDF-linkki Väri"
+
+#: admin/ui/sections/designer-panel.php:84
+msgid "Recipient text color"
+msgstr "Vastaanottajan tekstiväri"
+
+#: admin/ui/sections/designer-panel.php:85
+msgid "From text color"
+msgstr "Antajan tekstiväri"
+
+#: admin/ui/sections/designer-panel.php:86
+msgid "Message text color"
+msgstr "Viestin tekstiväri"
+
+#: admin/ui/sections/designer-panel.php:87
+msgid "Amount label color"
+msgstr "Arvon otsikkoväri"
+
+#: admin/ui/sections/designer-panel.php:88
+msgid "Amount color"
+msgstr "Arvon väri"
+
+#: admin/ui/sections/designer-panel.php:89
+msgid "Gift card number label color"
+msgstr "Lahjakorttinumeron otsikkoväri"
+
+#: admin/ui/sections/designer-panel.php:90
+msgid "Gift card number color"
+msgstr "Lahjakorttinumeron väri"
+
+#: admin/ui/sections/designer-panel.php:91
+msgid "Expiration date label color"
+msgstr "Umpeutumispäivämäärän otsikkoväri"
+
+#: admin/ui/sections/designer-panel.php:92
+msgid "Expiration Date color"
+msgstr "Umpeutumispäivämäärän väri"
+
+#: admin/ui/sections/designer-panel.php:93
+msgid "Gift card border color"
+msgstr "Lahjakortin reunan väri"
+
+#: admin/ui/sections/designer-panel.php:96
+msgid "Additional content (HTML allowed)"
+msgstr "Lisätiedot (HTML sallittu)"
+
+#: admin/ui/sections/designer-panel.php:100
+msgid "Additional content location"
+msgstr "Lisätietojen sijainti"
+
+#: admin/ui/sections/designer-panel.php:117
+msgid "Additional content text color"
+msgstr "Lisätietojen tekstiväri"
+
+#: admin/ui/sections/designer-panel.php:120
+msgid "Redeem URL"
+msgstr "Lunastus-URL"
+
+#: admin/ui/sections/designer-panel.php:123
+msgid ""
+"The link for the Redeem button on the gift card email. Include the https "
+"prefix, the Gift Card Number is automatically appended in the URL."
+msgstr ""
+"Lunastuspainikkeen linkki lahjakorttisähköpostissa. Lisää https-etuliite, "
+"lahjakortin numero lisätään automaattisesti url-osoitteen loppuun."
+
+#: admin/ui/sections/designer-panel.php:127
+msgid "Custom CSS"
+msgstr "Mukautettu CSS"
+
+#: admin/ui/sections/designer-panel.php:130
+msgid "Save and refresh the page after adding custom CSS."
+msgstr "Tallenna ja päivitä sivu mukautetun CSS-koodin lisäämisen jälkeen."
+
+#: admin/ui/sections/designer-panel.php:138
+msgid "Gift card background image"
+msgstr "Lahjakortin taustakuva"
+
+#: admin/ui/sections/designer-panel.php:142
+msgid "Outlook does not display background images."
+msgstr "Outlook ei näytä taustakuvia."
+
+#: admin/ui/sections/designer-panel.php:143
+msgid "We recommend a 500x275 pixel image."
+msgstr "Suosittelemme kuvakooksi 500x275 pikseliä."
+
+#: admin/ui/sections/designer-panel.php:144
+msgid "Sample"
+msgstr "Esimerkki"
+
+#: admin/ui/sections/designer-panel.php:165
+msgid ""
+"Go to the %s to customize the background color, subject, email heading, and "
+"more."
+msgstr ""
+"Sivulla %s voit muokata taustaväriä, aihetta, sähköpostin otsikkoa ja muuta."
+
+#: admin/ui/sections/designer-panel.php:169
+msgid "Want even more control?"
+msgstr "Haluatko hallita lisäasetuksia?"
+
+#: admin/ui/sections/designer-panel.php:171
+msgid ""
+"You can fully customize the gift card email to suit your needs. We use the "
+"built in WooCommerce email template system. To override the email you should "
+"copy this file"
+msgstr ""
+"Voit muokata lahjakorttisähköpostin täysin makusi mukaan. Käytämme "
+"WooCommercen sähköpostimallijärjestelmää. Omia muutoksia varten kopioi tämä "
+"tiedosto"
+
+#: admin/ui/sections/designer-panel.php:173
+msgid "To here"
+msgstr "Tänne"
+
+#: admin/ui/sections/designer-panel.php:175
+msgid ""
+"You may need to create the subfolders if they do not exist in your theme "
+"folder. Once the file is in your theme folder, open it up in a text editor "
+"and make any changes."
+msgstr ""
+"Voit joutua luomaan alakansioita mikäli niitä ei ole olemassa teemasi "
+"kansiossa. Kun tiedosto on auki teemasi kansiossa, avaa se tekstieditorissa "
+"ja tee mahdolliset muutokset."
+
+#: admin/ui/sections/designer-panel.php:179
+msgid "Save design"
+msgstr "Tallenna ulkoasu"
+
+#: admin/ui/sections/designer-panel.php:180
+msgid "Delete design"
+msgstr "Poista ulkoasu"
+
+#: admin/ui/sections/designer-panel.php:195
+msgid "Custom template file detected!"
+msgstr "Mukautettu mallitiedosto havaittu!"
+
+#: admin/ui/sections/designer-panel.php:198
+msgid ""
+"It appears as though you already have a custom email template file, your "
+"changes in the Designer may not appear when you actually send the email. "
+"Click the Send Preview Email button to confirm."
+msgstr ""
+"Sinulla vaikuttaisi jo olevan mukautettu sähköpostin mallitiedosto, "
+"muutoksesi muokkaustyökalussa voivat jäädä huomioimatta kun lähetät "
+"sähköpostin.  Klikkaa \"Lähetä esikatselu\" -painiketta vahvistaaksesi tämän."
+
+#: admin/ui/sections/designer-panel.php:203
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:243
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: admin/ui/sections/designer-panel.php:206
+msgid "Send a preview email"
+msgstr "Lähetä esikatselusähköposti"
+
+#: admin/ui/sections/designer-panel.php:213
+msgid "The Purchasing Customer"
+msgstr "Ostava asiakas"
+
+#: admin/ui/sections/import-results.php:8
+msgid "THIS IS ONLY A PREVIEW"
+msgstr "TÄMÄ ON VAIN ESIKATSELU"
+
+#: admin/ui/sections/import-results.php:10
+msgid ""
+"No cards have been imported yet. If the results look good, click on the "
+"\"Import cards\" button below to actually create the gift cards."
+msgstr ""
+"Kortteja ei vielä tuotu. Jos tulokset näyttävät hyvältä, klikkaa alla olevaa "
+"\"Tuo kortit\" -painiketta luodaksesi lahjakortit."
+
+#: admin/ui/sections/import-results.php:13
+msgid "Overwrite data for existing gift card numbers."
+msgstr "Korvaa olemassa olevien lahjakorttinumeroiden tiedot."
+
+#: admin/ui/sections/import-results.php:16
+msgid ""
+"Email the gift card to the recipient if email address is included in the "
+"import."
+msgstr ""
+"Lähetä lahjakortti vastaanottajalle sähköpostitse jos tuonnissa on "
+"sähköpostiosoite."
+
+#: admin/ui/sections/import-results.php:45
+msgid "Import cards"
+msgstr "Tuo kortit"
+
+#: admin/ui/sections/import-results.php:59
+msgid "Row"
+msgstr "Rivi"
+
+#: admin/ui/sections/import-results.php:60
+#: admin/ui/sections/search-results.php:14
+msgid "Card Number"
+msgstr "Korttinumero"
+
+#: admin/ui/sections/import-results.php:62
+#: admin/ui/sections/search-results.php:16
+msgid "Expiration Date"
+msgstr "Umpeutumispäivämäärä"
+
+#: admin/ui/sections/import-results.php:63
+#: admin/ui/sections/search-results.php:17 pw-gift-cards.php:132
+msgid "Recipient"
+msgstr "Vastaanottaja"
+
+#: admin/ui/sections/import-results.php:64
+msgid "Result"
+msgstr "Tulos"
+
+#: admin/ui/sections/import-results.php:80
+msgid "OK"
+msgstr "OK"
+
+#: admin/ui/sections/import-results.php:84
+msgid "ERROR: %s"
+msgstr "VIRHE: %s"
+
+#: admin/ui/sections/import-results.php:98
+msgid "%s valid"
+msgstr "%s kelvollinen"
+
+#: admin/ui/sections/import-results.php:103
+msgid "%s invalid"
+msgstr "%s kelvoton"
+
+#: admin/ui/sections/import-results.php:108
+msgid "%s total records processed"
+msgstr "%s kaikista tiedoista käsitelty"
+
+#: admin/ui/sections/import.php:11
+msgid "Import CSV File"
+msgstr "Tuo CSV-tiedosto"
+
+#: admin/ui/sections/import.php:15
+msgid "Upload CSV File"
+msgstr "Lataa CSV-tiedosto"
+
+#: admin/ui/sections/import.php:19
+msgid "Import Instructions"
+msgstr "Tuontiohjeet"
+
+#: admin/ui/sections/import.php:22
+msgid ""
+"Import a comma-separated value file (CSV) of existing gift card numbers. "
+"This is useful for importing physical gift cards sold to customers. You will "
+"see a preview of the results before anything is saved to the database."
+msgstr ""
+"Tuo CSV-tiedostolla olemassa olevia lahjakortin numeroita. Tämä on "
+"hyödyllistä, jos myyt myös fyysisiä lahjakortteja asiakkaillesi. Näet "
+"tuontitietojen esikatselun ennen kuin mitään tallennetaan tietokantaan."
+
+#: admin/ui/sections/import.php:25
+msgid "The CSV should NOT have a header and the columns must be in this order:"
+msgstr ""
+"CSV tiedostossa EI tulisi olla otsikkoriviä ja sarakkeiden tulee olla tässä "
+"järjestyksessä:"
+
+#: admin/ui/sections/import.php:28
+msgid ""
+"Gift Card Number, Balance, Expiration Date (optional), Recipient Email "
+"(optional)"
+msgstr ""
+"Lahjakortin numero, saldo, umpeutumispäivä (valinnainen), vastaanottajan "
+"sähköpostiosoite (valinnainen)"
+
+#: admin/ui/sections/import.php:45
+msgid "Export your gift card data"
+msgstr "Vie lahjakorttisi tiedot"
+
+#: admin/ui/sections/import.php:48
+msgid "Download CSV File"
+msgstr "Lataa CSV-tiedosto"
+
+#: admin/ui/sections/search-results-rows.php:38
+msgid "Card has been deleted."
+msgstr "Kortti on poistettu."
+
+#: admin/ui/sections/search-results-rows.php:61
+msgid "View activity"
+msgstr "Katso tapahtumia"
+
+#: admin/ui/sections/search-results-rows.php:63
+msgid "Add a note"
+msgstr "Lisää muistiinpano"
+
+#: admin/ui/sections/search-results-rows.php:64
+msgid "Adjust balance"
+msgstr "Muokkaa saldoa"
+
+#: admin/ui/sections/search-results-rows.php:65
+msgid "Set expiration date"
+msgstr "Aseta umpeutumispäivämäärä"
+
+#: admin/ui/sections/search-results-rows.php:66
+msgid "Email Gift Card"
+msgstr "Lähetä lahjakortti sähköpostitse"
+
+#: admin/ui/sections/search-results-rows.php:67
+msgid "Delete"
+msgstr "Poista"
+
+#: admin/ui/sections/search-results-rows.php:70
+msgid "Restore"
+msgstr "Palauta"
+
+#: admin/ui/sections/search-results-rows.php:71
+msgid "Delete Permanently"
+msgstr "Poista pysyvästi"
+
+#: admin/ui/sections/search-results-rows.php:81
+msgid "Load more"
+msgstr "Lataa lisää"
+
+#: admin/ui/sections/search-results-rows.php:167
+msgid "Are you sure you want to delete this gift card?"
+msgstr "Haluatko varmasti poistaa tämän lahjakortin?"
+
+#: admin/ui/sections/search-results-rows.php:177
+msgid ""
+"Are you sure you want to PERMANENTLY delete this gift card? This action "
+"cannot be undone!"
+msgstr ""
+"Haluatko varmasti PYSYVÄSTI poistaa tämän lahjakortin? Tätä toimintoa ei voi "
+"kumota!"
+
+#: admin/ui/sections/search-results.php:7
+msgid "No results"
+msgstr "Ei tuloksia"
+
+#: admin/ui/sections/search-results.php:8
+msgid "There are no gift cards found matching your search terms."
+msgstr "Hakusanoillasi ei löytynyt lahjakortteja."
+
+#: admin/ui/sections/search-results.php:33
+msgid "From (optional)"
+msgstr "From (valinnainen)"
+
+#: admin/ui/sections/search-results.php:59
+msgid "Send"
+msgstr "Lähetä"
+
+#: admin/ui/sections/search-results.php:60
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: admin/ui/sections/settings.php:15
+msgid "Not receiving gift card emails?"
+msgstr "Ongelmia lahjakorttien sähköpostitoimituksen kanssa?"
+
+#: admin/ui/sections/settings.php:16
+msgid ""
+"Confirm that the Order Status is \"Complete\" for the gift cards purchased. "
+"You should see the Gift Card number along with the recipient email in the "
+"Order line items inside the admin area. If the order is Complete and it "
+"shows the Gift Card number, try disabling the WooCommerce Transactional "
+"Email System for the gift cards below."
+msgstr ""
+"Vahvista, että tilauksen tila on \"Valmis\" ostetulle lahjakortille. Sinun "
+"pitäisi nähdä lahjakortin numero vastaanottajan sähköpostiosoitteen lisäksi "
+"tilauksen tuotelistassa ohjausnäkymässä. Jos tilaus on valmis ja näyttää "
+"lahjakortin numeron, voi kokeilla poistaa WooCommercen sähkpostijärjestelmän "
+"lahjakorttien osalta."
+
+#: admin/ui/sections/settings.php:26
+msgid "Save Settings"
+msgstr "Tallenna asetukset"
+
+#: includes/class-pw-gift-card-activity.php:72
+msgid "Could not find activity record %d."
+msgstr "Ei löydy tapahtumamerkintää %d."
+
+#: includes/class-pw-gift-card-activity.php:84
+msgid "Invalid action value: "
+msgstr "Epäkelpo toiminta-arvo: "
+
+#: includes/class-pw-gift-card.php:24
+msgid "Number changed from %s to %s"
+msgstr "Numero vaihdettu: %s -> %s"
+
+#: includes/class-pw-gift-card.php:75
+msgid "Card number does not exist."
+msgstr "Kortin numero ei ole olemassa."
+
+#: includes/class-pw-gift-card.php:78
+msgid "Enter a card number."
+msgstr "Syötä korttinumero."
+
+#: includes/class-pw-gift-card.php:126
+#: templates/woocommerce/cart/cart-pw-gift-card.php:35
+#: templates/woocommerce/checkout/pw-gift-cards.php:36
+msgid "Expired"
+msgstr "Umpeutunut"
+
+#: includes/class-pw-gift-card.php:242
+msgid "Amount added should be greater than zero."
+msgstr "Lisättävä arvo tulee olla enemmän kuin nolla."
+
+#: includes/class-pw-gift-card.php:255
+msgid "Amount deducted should be less than zero."
+msgstr "Vähennettävä arvo tulee olla vähemmän kuin nolla."
+
+#: includes/class-pw-gift-card.php:264
+msgid "Unable to adjust balance, card is not active."
+msgstr "Arvoa ei voi muokata, kortti ei ole aktiivinen."
+
+#: includes/class-pw-gift-card.php:346
+msgid "Card Number cannot be empty."
+msgstr "Kortin numero ei voi olla tyhjä."
+
+#: includes/class-pw-gift-card.php:358
+msgid ""
+"Gift Card %s was inserted into table %s and received database id %s but it "
+"could not be retrieved. Last error: %s"
+msgstr ""
+"Lahjakortti %s lisättiin tauluun %s ja haettu tietokannan id %s mutta sitä "
+"ei voitu palauttaa. Viimeinen virhe: %s"
+
+#: includes/class-pw-gift-card.php:361
+msgid "Gift Card %s could not be inserted into table %s. Last error: %s"
+msgstr "Lahjakorttia %s ei voitu lisätä tauluun %s. Viimeinen virhe: %s"
+
+#: includes/class-pw-gift-card.php:367
+msgid "Unknown error in add_card method."
+msgstr "Tuntematon virhe add_card -toiminnossa."
+
+#: includes/class-pw-gift-card.php:414
+msgid "Property %s does not exist on %s"
+msgstr "Ominaisuus %s ei löydy paikasta %s"
+
+#: includes/class-wc-product-pw-gift-card.php:271
+msgid "Amount already exists: "
+msgstr "Arvo on jo olemassa: "
+
+#: includes/class-wc-product-pw-gift-card.php:284
+msgid "Could not create variation."
+msgstr "Variaation luonti epäonnistui."
+
+#: includes/class-wc-product-pw-gift-card.php:305
+msgid "Could not locate variation using variation_id "
+msgstr "Ei löytynyt variaatiota käyttämällä variation_id "
+
+#: includes/class-wc-product-pw-gift-card.php:629
+msgid "Select amount"
+msgstr "Valitse arvo"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:13
+msgid "PW Gift Card Email"
+msgstr "PW Gift Card Email"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:14
+msgid "This email is sent to the recipients of a gift card."
+msgstr "Sähköposti lähetetään lahjakortin vastaanottajille."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:16
+msgid "You were given a gift card"
+msgstr "Sait lahjakortin"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:17
+msgid "{sender} sent you a gift card"
+msgstr "{sender} lähetti sinulle lahjakortin"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:151
+msgid "Gift Card for Order #"
+msgstr "Lahjakortti tilaus #"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:412
+msgid "Enable/Disable"
+msgstr "Aktivoi/Estä"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:414
+msgid "Enable this email notification"
+msgstr "Aktivoi tämä sähköposti-ilmoitus"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:418
+msgid "Subject"
+msgstr "Aihe"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:420
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Tämä asettaa sähköpostin aiheen. Jätä tyhjäksi käyttääksesi yleistä aihetta: "
+"<koodi>%s<koodi>."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:425
+msgid "Email Heading"
+msgstr "Sähköpostin otsikko"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:427
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Tämä asettaa sähköposti-ilmoituksen pääotsikon. Jätä tyhjäksi käyttääksesi "
+"yleistä otsikkoa: <koodi>%s<koodi>."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:432
+msgid "Email type"
+msgstr "Sähköpostityyppi"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:434
+msgid "Choose which format of email to send."
+msgstr "Valitse lähetettävän sähköpostin formaatti."
+
+#: includes/emails/class-wc-email-pw-gift-card.php:438
+msgid "Plain text"
+msgstr "Pelkistetty teksti"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:439
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/emails/class-wc-email-pw-gift-card.php:440
+msgid "Multipart"
+msgstr "Moniosainen"
+
+#: includes/pw-gift-cards-email-designer.php:28
+msgid "Top"
+msgstr "Ylös"
+
+#: includes/pw-gift-cards-email-designer.php:29
+msgid "Before recipient"
+msgstr "Ennen vastaanottajaa"
+
+#: includes/pw-gift-cards-email-designer.php:30
+msgid "Before Gift Card"
+msgstr "Ennen lahjakorttia"
+
+#: includes/pw-gift-cards-email-designer.php:31
+msgid "Gift Card Top"
+msgstr "Lahjakortin yläreuna"
+
+#: includes/pw-gift-cards-email-designer.php:32
+msgid "Gift Card Bottom"
+msgstr "Lahjakortin alareuna"
+
+#: includes/pw-gift-cards-email-designer.php:33
+msgid "After Gift Card"
+msgstr "Lahjakortin jälkeen"
+
+#: includes/pw-gift-cards-email-designer.php:34
+msgid "Bottom"
+msgstr "Alas"
+
+#: includes/pw-gift-cards-email-designer.php:87
+msgid "Default"
+msgstr "Oletus"
+
+#: includes/pw-gift-cards-email-designer.php:88
+msgid "Redeem"
+msgstr "Lunasta"
+
+#: includes/pw-gift-cards-email-designer.php:94
+msgid "View or print your gift card."
+msgstr "Näytä tai tulosta lahjakorttisi."
+
+#: includes/pw-gift-cards-email-designer.php:97
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:7
+msgid "%s Gift Card"
+msgstr "%s lahjakortti"
+
+#: includes/pw-gift-cards-email-designer.php:107
+msgid "Happy Birthday"
+msgstr "Hyvää Syntymäpäivää"
+
+#: includes/pw-gift-cards-email-designer.php:108
+msgid "Happy Birthday!"
+msgstr "Hyvää Syntymäpäivää!"
+
+#: includes/pw-gift-cards-email-designer.php:128
+msgid "Happy Anniversary"
+msgstr "Hyvää Vuosipäivää"
+
+#: includes/pw-gift-cards-email-designer.php:129
+msgid "Happy Anniversary!"
+msgstr "Hyvää Vuosipäivää!"
+
+#: includes/pw-gift-cards-email-designer.php:149
+msgid "Congratulations"
+msgstr "Onneksi Olkoon"
+
+#: includes/pw-gift-cards-email-designer.php:150
+msgid "Congratulations!"
+msgstr "Onneksi Olkoon!"
+
+#: includes/pw-gift-cards-email-designer.php:170
+msgid "Happy Holidays"
+msgstr "Hyviä Pyhiä"
+
+#: includes/pw-gift-cards-email-designer.php:171
+msgid "Happy Holidays!"
+msgstr "Hyviä Pyhiä!"
+
+#: includes/pw-gift-cards-email-designer.php:191
+msgid "Merry Christmas"
+msgstr "Hyvää Joulua"
+
+#: includes/pw-gift-cards-email-designer.php:192
+msgid "Merry Christmas!"
+msgstr "Hyvää Joulua!"
+
+#: includes/pw-gift-cards-purchasing.php:74
+msgid "Choose an amount"
+msgstr "Valitse arvo"
+
+#: includes/pw-gift-cards-purchasing.php:167
+msgid "The minimum amount is %s."
+msgstr "Minimiarvo on %s."
+
+#: includes/pw-gift-cards-purchasing.php:172
+msgid "The maximum amount is %s."
+msgstr "Maksimiarvo on %s."
+
+#: includes/pw-gift-cards-purchasing.php:176
+msgid "Amount is required"
+msgstr "Arvo on pakollinen"
+
+#: includes/pw-gift-cards-purchasing.php:401
+msgid "Order %s purchased by %s %s"
+msgstr "Tilaus %s, ostaja %s %s"
+
+#: includes/pw-gift-cards-purchasing.php:431
+msgid "Unable to retrieve variation "
+msgstr "Variaatiota ei löydy "
+
+#: includes/pw-gift-cards-purchasing.php:501
+msgid "Bonus Gift Card"
+msgstr "Bonuslahjakortti"
+
+#: includes/pw-gift-cards-purchasing.php:594
+msgid "Bonus"
+msgstr "Bonus"
+
+#: includes/pw-gift-cards-purchasing.php:658
+msgid "Generated and emailed after the order is marked Complete."
+msgstr "Luotu ja sähköpostitettu kun tilaus on merkitty käsitellyksi."
+
+#: includes/pw-gift-cards-redeeming.php:359
+msgid "Gift card %s:"
+msgid_plural "Gift cards %s:"
+msgstr[0] "Lahjakortti %s:"
+msgstr[1] "Lahjakortti %s:"
+
+#: includes/pw-gift-cards-redeeming.php:435
+msgid "Shipping via %s"
+msgstr "Toimitus %s kautta"
+
+#: includes/pw-gift-cards-redeeming.php:504
+#: includes/pw-gift-cards-redeeming.php:561
+#: includes/pw-gift-cards-redeeming.php:634 pw-gift-cards.php:218
+msgid "This gift card has a zero balance."
+msgstr "Lahjakortin saldo on nolla."
+
+#: includes/pw-gift-cards-redeeming.php:507
+#: includes/pw-gift-cards-redeeming.php:637 pw-gift-cards.php:222
+msgid "Gift card applied."
+msgstr "Lahjakortti lunastettu."
+
+#: includes/pw-gift-cards-redeeming.php:522
+msgid "Gift card removed."
+msgstr "Lahjakortti poistettu."
+
+#: includes/pw-gift-cards-redeeming.php:554
+msgid "Gift cards cannot be used to purchase other gift cards."
+msgstr "Lahjakortteja ei voida käyttää lahjakortin ostamiseen."
+
+#: includes/pw-gift-cards-redeeming.php:557
+msgid "This gift card is expired."
+msgstr "Tämä lahjakortti on umpeutunut."
+
+#: includes/pw-gift-cards-redeeming.php:564
+#: includes/pw-gift-cards-shortcodes.php:60
+msgid "Card is inactive."
+msgstr "Kortti on jäädytetty."
+
+#: includes/pw-gift-cards-rest-controller.php:49
+msgid "Unique identifier for the gift card."
+msgstr "Uniikki tunniste lahjakortille."
+
+#: includes/pw-gift-cards-rest-controller.php:156
+#: includes/pw-gift-cards-rest-controller.php:306
+#: includes/pw-gift-cards-rest-controller.php:336
+msgid "Gift Card Not Found"
+msgstr "Lahjakorttia ei löydy"
+
+#: includes/pw-gift-cards-rest-controller.php:190
+#: includes/pw-gift-cards-rest-controller.php:250
+msgid "Gift Card Number %s already exists."
+msgstr "Lahjakortti numerolla %s on jo olemassa."
+
+#: includes/pw-gift-cards-rest-controller.php:275
+msgid "Balance must be zero or greater."
+msgstr "Saldon on oltava nolla tai suurempi."
+
+#: includes/pw-gift-cards-rest-controller.php:348
+msgid "The specific gift card number to retrieve."
+msgstr "Lahjakortin numero joka haetaan."
+
+#: includes/pw-gift-cards-rest-controller.php:352
+msgid "The number of gift cards to retrieve. Default is %s"
+msgstr "Haettavien lahjakorttien määrä. Oletusarvo on %s"
+
+#: includes/pw-gift-cards-rest-controller.php:361
+msgid "The gift card number. Must not exist in the database already."
+msgstr "Lahjakortin numero. Ei saa olla jo olemassa tietokannassa."
+
+#: includes/pw-gift-cards-rest-controller.php:366
+msgid ""
+"The number of gift cards to generate. Ignored if the \"number\" parameter "
+"has a value."
+msgstr ""
+"Määrä lahjakortteja jotka luodaan. Ei huomioida jos \"numero\" -parametrilla "
+"on arvo."
+
+#: includes/pw-gift-cards-rest-controller.php:370
+msgid "Initial gift card balance."
+msgstr "Lahjakortin alkusaldo."
+
+#: includes/pw-gift-cards-rest-controller.php:374
+msgid "The expiration date for the gift card."
+msgstr "Lahjakortin umpeutumispäivämäärä."
+
+#: includes/pw-gift-cards-rest-controller.php:378
+msgid ""
+"Set to a true value to email the gift card to the recipient_email specified."
+msgstr ""
+"Aseta true-arvo lähettääksesi lahjakortin asetettuun recipient_email-"
+"osoitteeseen."
+
+#: includes/pw-gift-cards-rest-controller.php:382
+msgid "The email address that will receive the gift card."
+msgstr "Sähköpostiosoite minne lahjakortti lähetetään."
+
+#: includes/pw-gift-cards-rest-controller.php:386
+msgid ""
+"The friendly name of the person who sent the gift card to the recipient."
+msgstr "Lahjakortin lähettäjän nimi."
+
+#: includes/pw-gift-cards-rest-controller.php:390
+msgid ""
+"Adds a note to the gift card activity record when the gift card is created."
+msgstr "Lisää muistiinpanon lahjakortin aktiviteetilokiin kun kortti luodaan."
+
+#: includes/pw-gift-cards-rest-controller.php:394
+msgid "The database ID of the Email Design to use when sending the gift card."
+msgstr "Valitun sähköpostiulkoasun tietokanta-ID lahjakorttia lähetettäessä."
+
+#: includes/pw-gift-cards-rest-controller.php:403
+msgid ""
+"Changes the gift card number to this value. Must not exist in the database "
+"already."
+msgstr ""
+"Muokkaa lahjakortin numeron tähän arvoon. Ei voi olla tietokannassa jo "
+"olemassa oleva numero."
+
+#: includes/pw-gift-cards-rest-controller.php:407
+msgid "Balance adjustment amount. Can be positive or negative."
+msgstr "Saldon muokkausarvo. Voi olla positiivinen tai negatiivinen."
+
+#: includes/pw-gift-cards-rest-controller.php:411
+msgid ""
+"Set the balance to a specific value. This will add a transaction for the "
+"appropriate amount to set the balance to this value."
+msgstr ""
+"Aseta saldo tiettyyn arvoon. Tämä lisää sopivan määrän tapahtuman saldon "
+"asettamiseksi tähän arvoon."
+
+#: includes/pw-gift-cards-rest-controller.php:415
+msgid "Adds a note to the gift card activity record."
+msgstr "Lisää muistiinpanon lahjakortin aktiviteetilokiin."
+
+#: includes/pw-gift-cards-rest-controller.php:419
+msgid ""
+"The expiration date for the gift card. Send an empty value to clear the "
+"expiration date."
+msgstr ""
+"Lahjakortin umpeutumispäivämäärä. Lähetä tyhjä arvo poistaaksesi "
+"umpeutumispäivämäärän."
+
+#: includes/pw-gift-cards-rest-controller.php:423
+msgid ""
+"Send a true value to deactivate the gift card. Send a false value to "
+"reactivate a previously deactivated gift card."
+msgstr ""
+"Lähetä true-arvo jäädyttääksesi lahjakortin. Lähetä false-arvo "
+"aktivoidaksesi aiemmin jäädytetyn lahjakortin."
+
+#: includes/pw-gift-cards-rest-controller.php:433
+msgid "Whether to bypass trash and force deletion."
+msgstr "Ohitetaanko roskakori ja pakotetaan poistaminen."
+
+#: pw-gift-cards.php:118
+msgid "Other amount"
+msgstr "Muu arvo"
+
+#: pw-gift-cards.php:124
+msgid "Gift Card Amount"
+msgstr "Lahjakortin arvo"
+
+#: pw-gift-cards.php:128
+msgid "Adding to Gift Card"
+msgstr "Lisätään lahjakorttiin"
+
+#: pw-gift-cards.php:129
+msgid "Reloaded"
+msgstr "Uudelleen ladattu"
+
+#: pw-gift-cards.php:131
+#: templates/woocommerce/emails/customer-pw-gift-card.php:124
+msgid "To"
+msgstr "Kenelle"
+
+#: pw-gift-cards.php:134
+msgid "Message"
+msgstr "Viesti"
+
+#: pw-gift-cards.php:135 pw-gift-cards.php:404
+msgid "Delivery Date"
+msgstr "Toimituspäivämäärä"
+
+#: pw-gift-cards.php:136
+msgid "Bonus Amount"
+msgstr "Bonusarvo"
+
+#: pw-gift-cards.php:272
+msgid "Required"
+msgstr "Vaaditaan"
+
+#: pw-gift-cards.php:273
+msgid "Amount to debit?"
+msgstr "Veloituksen määrä?"
+
+#: pw-gift-cards.php:275
+msgid "Minimum amount is %s"
+msgstr "Minimiarvo on %s"
+
+#: pw-gift-cards.php:276
+msgid "Maximum amount is %s"
+msgstr "Maksimiarvo on %s"
+
+#: pw-gift-cards.php:277
+msgid ""
+"The \"To\" field should only contain email addresses. The following "
+"recipients do not look like valid email addresses:"
+msgstr ""
+"\"Kenelle\" -kentässä kuuluu olla vain sähköpostiosoitteita. Seuraavat "
+"vastaanottajat eivät näytä oikeilta sähköpostiosoitteilta:"
+
+#: pw-gift-cards.php:280
+msgid "January"
+msgstr "Tammikuu"
+
+#: pw-gift-cards.php:281
+msgid "February"
+msgstr "Helmikuu"
+
+#: pw-gift-cards.php:282
+msgid "March"
+msgstr "Maaliskuu"
+
+#: pw-gift-cards.php:283
+msgid "April"
+msgstr "Huhtikuu"
+
+#: pw-gift-cards.php:284
+msgid "May"
+msgstr "Toukokuu"
+
+#: pw-gift-cards.php:285
+msgid "June"
+msgstr "Kesäkuu"
+
+#: pw-gift-cards.php:286
+msgid "July"
+msgstr "Heinäkuu"
+
+#: pw-gift-cards.php:287
+msgid "August"
+msgstr "Elokuu"
+
+#: pw-gift-cards.php:288
+msgid "September"
+msgstr "Syyskuu"
+
+#: pw-gift-cards.php:289
+msgid "October"
+msgstr "Lokakuu"
+
+#: pw-gift-cards.php:290
+msgid "November"
+msgstr "Marraskuu"
+
+#: pw-gift-cards.php:291
+msgid "December"
+msgstr "Joulukuu"
+
+#: pw-gift-cards.php:292
+msgid "Sun"
+msgstr "Su"
+
+#: pw-gift-cards.php:293
+msgid "Mon"
+msgstr "Ma"
+
+#: pw-gift-cards.php:294
+msgid "Tue"
+msgstr "Ti"
+
+#: pw-gift-cards.php:295
+msgid "Wed"
+msgstr "Ke"
+
+#: pw-gift-cards.php:296
+msgid "Thu"
+msgstr "To"
+
+#: pw-gift-cards.php:297
+msgid "Fri"
+msgstr "Pe"
+
+#: pw-gift-cards.php:298
+msgid "Sat"
+msgstr "La"
+
+#: pw-gift-cards.php:299 pw-gift-cards.php:306
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: pw-gift-cards.php:300
+msgid "Monday"
+msgstr "Maanantai"
+
+#: pw-gift-cards.php:301
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#: pw-gift-cards.php:302
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+#: pw-gift-cards.php:303
+msgid "Thursday"
+msgstr "Torstai"
+
+#: pw-gift-cards.php:304
+msgid "Friday"
+msgstr "Perjantai"
+
+#: pw-gift-cards.php:305
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: pw-gift-cards.php:459
+msgid "%s requires WooCommerce version %s or later."
+msgstr "%s vaatii WooCommerce version %s tai uudemman."
+
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:21
+msgid "Gift Card:"
+msgstr "Lahjakortti:"
+
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:22
+#: templates/woocommerce/cart/apply-gift-card.php:34
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:21
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:16
+msgid "Gift card number"
+msgstr "Lahjakortin numero"
+
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:23
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:25
+msgid "Apply gift card"
+msgstr "Lunasta lahjakortti"
+
+#: templates/woocommerce/cart/apply-gift-card-after-cart-contents.php:23
+#: templates/woocommerce/cart/apply-gift-card.php:35
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:25
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:17
+msgid "Please wait..."
+msgstr "Odota hetki..."
+
+#: templates/woocommerce/cart/apply-gift-card.php:32
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:13
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:14
+msgid "Have a gift card?"
+msgstr "Onko sinulla lahjakortti?"
+
+#: templates/woocommerce/cart/cart-pw-gift-card.php:26
+#: templates/woocommerce/checkout/pw-gift-cards.php:27
+msgid "Gift card"
+msgstr "Lahjakortti"
+
+#: templates/woocommerce/cart/cart-pw-gift-card.php:29
+#: templates/woocommerce/checkout/pw-gift-cards.php:30
+msgid "Remaining balance is %s"
+msgstr "Jäljellä oleva arvo on %s"
+
+#: templates/woocommerce/cart/cart-pw-gift-card.php:42
+msgid "Gift Card Total"
+msgstr "Lahjakortin summa"
+
+#: templates/woocommerce/cart/cart-pw-gift-card.php:44
+#: templates/woocommerce/checkout/pw-gift-cards.php:45
+msgid "[Remove]"
+msgstr "[Poista]"
+
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:13
+msgid "Click here to enter your gift card number"
+msgstr "Klikkaa tästä syöttääksesi lahjakorttisi numero"
+
+#: templates/woocommerce/checkout/coupon-area-pw-gift-card.php:18
+msgid "If you have a gift card number, please apply it below."
+msgstr "Jos sinulla on lahjakortin numero, ole hyvä ja syötä se alla."
+
+#: templates/woocommerce/checkout/payment-method-pw-gift-card.php:17
+msgid "Apply Gift Card"
+msgstr "Lunasta lahjakortti"
+
+#: templates/woocommerce/emails/customer-pw-gift-card.php:177
+#: templates/woocommerce/pw-gift-cards/balance.php:82
+msgid "Gift Card Number"
+msgstr "Lahjakortin numero"
+
+#: templates/woocommerce/emails/customer-pw-gift-card.php:187
+#: templates/woocommerce/pw-gift-cards/balance.php:94
+msgid "Expires"
+msgstr "Umpeutuu"
+
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:8
+msgid "Amount: %s"
+msgstr "Arvo: %s"
+
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:9
+msgid "Gift card number: %s"
+msgstr "Lahjakortin numero: %s"
+
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:10
+msgid "Link: %s"
+msgstr "Linkki: %s"
+
+#: templates/woocommerce/emails/plain/customer-pw-gift-card.php:14
+msgid "Message:"
+msgstr "Viesti:"
+
+#: templates/woocommerce/pw-gift-cards/balance.php:79
+msgid "Check Gift Card Balance"
+msgstr "Tarkista lahjakortin saldo"
+
+#: templates/woocommerce/pw-gift-cards/balance.php:83
+msgid "Check Balance"
+msgstr "Tarkista saldo"
+
+#: templates/woocommerce/pw-gift-cards/balance.php:105
+msgid "Add more funds to this gift card."
+msgstr "Lisää arvoa tälle lahjakortille."
+
+#: templates/woocommerce/pw-gift-cards/balance.php:112
+msgid "Debit Balance"
+msgstr "Veloituksen saldo"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:143
+msgid ""
+"Gift card will be delivered to the Shipping Address entered during checkout."
+msgstr "Lahjakortti toimitetaan toimitusosoiteen joka syötetään kassalla."
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:151
+msgid "Enter an email address for each recipient"
+msgstr "Syötä jokaisen vastaanottajan sähköpostiosoite"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:152
+msgid "Separate multiple email addresses with a comma."
+msgstr "Erottele sähköpostiosoitteet pilkulla."
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:174
+msgid "Enter a friendly name for the recipient (optional)."
+msgstr "Syötä vastaanottajan nimi (valinnainen)."
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:182
+msgid "Your name"
+msgstr "Nimesi"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:186
+msgid "(optional)"
+msgstr "(valinnainen)"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:187
+msgid "Add a message"
+msgstr "Lisää viesti"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:188
+msgid "characters remaining"
+msgstr "merkkiä jäljellä"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:196
+msgid "Now"
+msgstr "Nyt"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:197
+msgid "Up to a year from today"
+msgstr "Vuoden päähän tästä päivästä"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:250
+msgid "Quantity"
+msgstr "Määrä"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-before-add-to-cart-quantity.php:251
+msgid "1 to each recipient"
+msgstr "1 jokaiselle vastaanottajalle"
+
+#: templates/woocommerce/single-product/add-to-cart/pw-gift-card-reload.php:54
+msgid "You are adding funds to the following gift card:"
+msgstr "Olet lisäämässä arvoa seuraavaan lahjakorttiin:"
+
+#~ msgid "Import Card Numbers"
+#~ msgstr "Tuo lahjakorttinumerot"
+
+#~ msgid "Need help? Email %s"
+#~ msgstr "Tarvitsetko tukea? Lähetä sähköpostia osoitteeseen %s"
+
+#~ msgid "Leave a review on WordPress.org."
+#~ msgstr "Arvostele sivustolla WordPress.org."
+
+#~ msgid "The email sent to the recipient will feature this design."
+#~ msgstr ""
+#~ "Vastaanottajalle lähetettävä sähköposti muotoillaan tämän mallin mukaan."
+
+#~ msgid "Commission (%)"
+#~ msgstr "Komissio (%)"
+
+#~ msgid "Set the commission for this product."
+#~ msgstr "Aseta komissio tälle tuotteelle."
+
+#~ msgid "Email %s if you need assistance."
+#~ msgstr "Jos tarvitset tukea, lähetä sähköpostia osoitteeseen %s."
+
+#~ msgid "Orders"
+#~ msgstr "Tilaukset"
+
+#~ msgid "PW Gift Card Redeemed."
+#~ msgstr "PW Lahjakortti lunastettu."
+
+#~ msgid "Balance is currently %s, unable to adjust by %s"
+#~ msgstr "Saldo on tällä hetkellä %s, ei voida muokata %s:lla"
+
+#~ msgid "Failed to generate a unique random card number after %d attempts. %s"
+#~ msgstr ""
+#~ "Uniikin satunnaisen numeron luonti epäonnistui %d yrityksen jälkeen. %s"
+
+#~ msgid "Previous Month"
+#~ msgstr "Edellinen kuukausi"
+
+#~ msgid "Next Month"
+#~ msgstr "Seuraava kuukausi"
+
+#~ msgid ""
+#~ "Please consider <%s>leaving a review on WordPress.org</a>. This really "
+#~ "helps us out!"
+#~ msgstr ""
+#~ "Harkitse <%s>arvostelun kirjoittamista WordPress.org:ssa</a>. Se auttaisi "
+#~ "meitä kovasti!"
+
+#~ msgid ""
+#~ "Create a page with the <a href=\"https://support.wordpress.com/shortcodes/"
+#~ "\" target=\"_blank\">shortcode</a>"
+#~ msgstr ""
+#~ "Luo sivu <a href=\"https://support.wordpress.com/shortcodes/\" target="
+#~ "\"_blank\">lyhytkoodille</a>"
+
+#~ msgid ""
+#~ "PW WooCommerce Gift Cards is not compatible with the Advanced Dynamic "
+#~ "Pricing For WooCommerce plugin. Customers will not be able to redeem gift "
+#~ "cards online. Please deactivate the ADP plugin to continue using gift "
+#~ "cards. See <a href=\"https://wordpress.org/support/topic/priority-"
+#~ "php_int_max-for-woocommerce_after_calculate_totals\" target=\"_blank"
+#~ "\">this post on WordPress.org</a> for the latest information."
+#~ msgstr ""
+#~ "PW WooCommerce -lahjakortit eivät ole yhteensopivia edistyneen dynaamisen "
+#~ "hinnoittelun WooCommerce-laajennuksen kanssa. Asiakkaat eivät voi "
+#~ "lunastaa lahjakortteja verkossa. Poista ADP-laajennus käytöstä "
+#~ "jatkaaksesi lahjakorttien käyttöä. Katso <a href=\"https://wordpress.org/"
+#~ "support/topic/priority-php_int_max-for-woocommerce_after_calculate_totals"
+#~ "\" target=\"_blank\">tämä viesti WordPress.org-sivustolta</a> "
+#~ "viimeisimmät tiedot."
